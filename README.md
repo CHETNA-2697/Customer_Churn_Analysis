@@ -24,11 +24,14 @@ Telecom providers face high costs in acquiring new customers. Retaining existing
 - Lack of value-added services like Tech Support or Online Security correlates with churn
 - Class imbalance significantly impacts performance; SMOTE improved churn recall across all models.
 
- # ⚙️ Results
-Model	           ||             Accuracy        ||     Recall (Churn)    ||   	Precision (Churn)   ||    	AUC
-Logistic Regression	              76%	                      72%	                      53%	                 0.83
-Random Forest	                    78%	                      60%	                      58%	                 0.83
-Gradient Boosting	                77.5%	                    61%	                      57%	                 0.83
+## ⚙️ Results
+
+| Model              | Accuracy | Recall (Churn) | Precision (Churn) | AUC  |
+|--------------------|----------|----------------|-------------------|------|
+| Logistic Regression| 76%      | 72%            | 53%               | 0.83 |
+| Random Forest      | 78%      | 60%            | 58%               | 0.83 |
+| Gradient Boosting  | 77.5%    | 61%            | 57%               | 0.83 |
+
 
 - Best for Business: Logistic Regression (high recall, easy to interpret)
 - Best Technical Model: Gradient Boosting (robust, high accuracy, strong generalization)
